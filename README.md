@@ -1,17 +1,17 @@
 # Spam Message Detection using Machine Learning
 
 ## Overview
-This project detects spam SMS messages using machine learning and NLP techniques.
+This project detects spam SMS messages using machine learning and natural language processing (NLP).
 
 ## Dataset
 - Source: UCI SMS Spam Collection Dataset
-- Total messages: 5,572
-- Labels: Spam / Ham
+- Total Messages: 5,572
+- Classes: Spam and Ham
 
 ## Workflow
-1. Data preprocessing
-2. Text vectorization (TF-IDF)
-3. Model training
+1. Data preprocessing and cleaning
+2. Feature extraction using TF-IDF
+3. Model training and comparison
 4. Model evaluation
 
 ## Models Used
@@ -23,12 +23,13 @@ This project detects spam SMS messages using machine learning and NLP techniques
 
 ## Results
 Achieved ~97–99% accuracy in spam classification.
+Naïve Bayes performed best for text classification.
 
 ## My Contribution
-- Performed data preprocessing and cleaning
-- Implemented feature extraction using TF-IDF
+- Cleaned and preprocessed text data
+- Applied TF-IDF vectorization
 - Trained and compared multiple ML models
-- Evaluated performance using accuracy, precision, recall
+- Evaluated performance using accuracy, precision, recall, F1-score
 
 ## Tools & Technologies
 - Python
